@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compiled.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Sasta Ashiana</title>
+</head>
+<body>
+    <div style="background: url('./img/bg1.jpg') no-repeat center fixed; background-size: cover; height: 90vh;">
+        <div class="flex flex-wrap flex-row h-24 bg-transparent">
+            <h1 class="text-col-pink text-2xl md:text-3xl font-bold md:ml-20 ml-1  my-auto">Sasta Ashiana</h1>
+            <div class="ml-auto flex flex-wrap flex-row justify-center">
+                <a class="my-auto text-sm md:text-xl text-col-dark mr-1 md:mr-12 cursor-pointer hover:text-col-pink">Sell your property</a>
+                
+                <a class="p-1 text-col-dark text-sm md:text-xl text-center font-bold mx-auto my-auto duration-500 rounded-full md:w-20 md:h-10 hover:bg-col-mid cursor-pointer">Map</a>
+                <i class="fas fa-user-alt md:text-xl text-sm my-auto text-center text-col-dark font-bold md:mx-10 mx-2 cursor-pointer"></i>
+            </div>
+            
+
+        </div>
+
+        <div class="mt-28 flex flex-wrap flex-row justify-center text-gray-900 text-3xl ">
+            <h1 class="border-r-2 font-bold border-black pr-2 cursor-pointer">Residential</h1>
+            <h1 class="ml-2 cursor-pointer">Commercial</h1>
+
+        </div>
+        <div class="flex flex-wrap flex-row rounded-full bg-col-lite w-auto h-16 mx-1 md:mx-44 mt-5 ">
+            <select name="buy" class="bg-transparent pb-2 my-auto mx-auto border-b-2 border-col-dark hidden lg:block">
+                <option value="buy">Buy</option>
+                <option value="rent">Rent</option>
+            </select>
+            <input type="text" placeholder="Area" class="bg-transparent my-auto border-b-2 border-col-dark pb-1 mr-auto mx-auto">
+            <select name="property-type" class="bg-transparent pb-2 my-auto mr-auto border-b-2 border-col-dark hidden lg:block">
+                <option value="">Property Type</option>
+                <option value="">Townhouse</option>
+                <option value="">Apartment</option>
+                <option value="">Villa</option>
+                <option value="">Land</option>
+            </select>
+            <select name="beds" class="pb-2 bg-transparent my-auto mr-auto border-b-2 border-col-dark hidden lg:block">
+                <option value="">BHK</option>
+                <option value="">1+</option>
+                <option value="">2+</option>
+                <option value="">3+</option>
+                <option value="">4+</option>
+            </select>
+            <select name="min-price" class="pb-2 bg-transparent my-auto mr-auto border-b-2 border-col-dark hidden lg:block">
+                <option value="">Minimum Price</option>
+                <option value="">INR30000</option>
+                <option value="">INR40000</option>
+                <option value="">INR50000</option>
+                <option value="">INR60000</option>
+                <option value="">INR70000</option>
+                <option value="">INR80000</option>
+            </select>
+            <select name="max-price" class="pb-2 bg-transparent my-auto mr-auto border-b-2 border-col-dark hidden lg:block">
+                <option value="">Maximum Price</option>
+                <option value="">INR300000</option>
+                <option value="">INR400000</option>
+                <option value="">INR500000</option>
+                <option value="">INR600000</option>
+                <option value="">INR700000</option>
+                <option value="">INR800000</option>
+            </select>
+            <i class="fas fa-search mr-auto rounded-full bg-col-pink text-col-lite my-auto p-4 cursor-pointer hover:bg-col-dark duration-300 text-center"></i>
+        </div>
+
+    </div>
+    <h1 class="text-3xl ml-5 md:ml-16 font-bold mt-16 text-col-pink" data-aos="fade-right">Looking for Property. . .</h1>
+    <div class="carousel mt-16" data-flickity='{ "groupCells": true, "autoPlay": true, "wrapAround":true }' data-aos="fade-right">
+        <div class="carousel-cell rounded-lg bg-col-lite shadow-2xl flex flex-wrap flex-row h-24 mx-8 w-72">
+            <img class="w-1/2 h-full rounded-lg" src="./img/pic.jpg">
+            <div class="flex flex-wrap flex-col my-auto">
+                <h1 class=" text-col-mid text-base">Property for sale in</h1>
+                <h1 class="font-bold text-col-pink text-lg">Faridabad</h1>
+            </div>
+            
+        </div>
+        <div class="carousel-cell rounded-lg bg-col-lite shadow-2xl flex flex-wrap flex-row h-24 mx-8 w-72">
+            <img class="w-1/2 h-full rounded-lg" src="./img/pic.jpg">
+            <div class="flex flex-wrap flex-col my-auto">
+                <h1 class=" text-col-mid text-base">Property for sale in</h1>
+                <h1 class="font-bold text-col-pink text-lg">Faridabad</h1>
+            </div>
+            
+        </div>
+        <div class="carousel-cell rounded-lg bg-col-lite shadow-2xl flex flex-wrap flex-row h-24 mx-8 w-72">
+            <img class="w-1/2 h-full rounded-lg" src="./img/pic.jpg">
+            <div class="flex flex-wrap flex-col my-auto">
+                <h1 class=" text-col-mid text-base">Property for sale in</h1>
+                <h1 class="font-bold text-col-pink text-lg">Faridabad</h1>
+            </div>
+            
+        </div>
+        <div class="carousel-cell rounded-lg bg-col-lite shadow-2xl flex flex-wrap flex-row h-24 mx-8 w-72">
+            <img class="w-1/2 h-full rounded-lg" src="./img/pic.jpg">
+            <div class="flex flex-wrap flex-col my-auto">
+                <h1 class=" text-col-mid text-base">Property for sale in</h1>
+                <h1 class="font-bold text-col-pink text-lg">Faridabad</h1>
+            </div>
+            
+        </div>
+        <div class="carousel-cell rounded-lg bg-col-lite shadow-2xl flex flex-wrap flex-row h-24 mx-8 w-72">
+            <img class="w-1/2 h-full rounded-lg" src="./img/pic.jpg">
+            <div class="flex flex-wrap flex-col my-auto">
+                <h1 class=" text-col-mid text-base">Property for sale in</h1>
+                <h1 class="font-bold text-col-pink text-lg">Faridabad</h1>
+            </div>
+            
+        </div>
+        <div class="carousel-cell rounded-lg bg-col-lite shadow-2xl flex flex-wrap flex-row h-24 mx-8 w-72">
+            <img class="w-1/2 h-full rounded-lg" src="./img/pic.jpg">
+            <div class="flex flex-wrap flex-col my-auto">
+                <h1 class=" text-col-mid text-base">Property for sale in</h1>
+                <h1 class="font-bold text-col-pink text-lg">Faridabad</h1>
+            </div>
+            
+        </div>
+        <div class="carousel-cell rounded-lg bg-col-lite shadow-2xl flex flex-wrap flex-row h-24 mx-8 w-72">
+            <img class="w-1/2 h-full rounded-lg" src="./img/pic.jpg">
+            <div class="flex flex-wrap flex-col my-auto">
+                <h1 class=" text-col-mid text-base">Property for sale in</h1>
+                <h1 class="font-bold text-col-pink text-lg">Faridabad</h1>
+            </div>
+            
+        </div>
+        <div class="carousel-cell rounded-lg bg-col-lite shadow-2xl flex flex-wrap flex-row h-24 mx-8 w-72">
+            <img class="w-1/2 h-full rounded-lg" src="./img/pic.jpg">
+            <div class="flex flex-wrap flex-col my-auto">
+                <h1 class=" text-col-mid text-base">Property for sale in</h1>
+                <h1 class="font-bold text-col-pink text-lg">Faridabad</h1>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+
+    <div class="carousel mt-16" data-flickity='{ "groupCells": true, "autoPlay": true, "wrapAround":true }' data-aos="fade-right">
+        <div class="carousel-cell rounded-xl flex flex-wrap flex-col w-1/3 mx-8 h-68 md:h-96 shadow-2xl bg-col-lite">
+            <img src="./img/pic.jpg" class="rounded-xl h-1/2">
+            <h1 class="font-bold text-col-pink text-xl m-5">Headline</h1>
+            <h1 class="text-col-dark text-lg m-5">Some fancy text goes here</h1>
+        </div>
+        <div class="carousel-cell rounded-xl flex flex-wrap flex-col w-1/3 mx-8 h-68 md:h-96 shadow-2xl bg-col-lite">
+            <img src="./img/pic.jpg" class="rounded-xl h-1/2">
+            <h1 class="font-bold text-col-pink text-xl m-5">Headline</h1>
+            <h1 class="text-col-dark text-lg m-5">Some fancy text goes here</h1>
+        </div>
+        <div class="carousel-cell rounded-xl flex flex-wrap flex-col w-1/3 mx-8 h-68 md:h-96 shadow-2xl bg-col-lite">
+            <img src="./img/pic.jpg" class="rounded-xl h-1/2">
+            <h1 class="font-bold text-col-pink text-xl m-5">Headline</h1>
+            <h1 class="text-col-dark text-lg m-5">Some fancy text goes here</h1>
+        </div>
+        <div class="carousel-cell rounded-xl flex flex-wrap flex-col w-1/3 mx-8 h-68 md:h-96 shadow-2xl bg-col-lite">
+            <img src="./img/pic.jpg" class="rounded-xl h-1/2">
+            <h1 class="font-bold text-col-pink text-xl m-5">Headline</h1>
+            <h1 class="text-col-dark text-lg m-5">Some fancy text goes here</h1>
+        </div>
+        <div class="carousel-cell rounded-xl flex flex-wrap flex-col w-1/3 mx-8 h-68 md:h-96 shadow-2xl bg-col-lite">
+            <img src="./img/pic.jpg" class="rounded-xl h-1/2">
+            <h1 class="font-bold text-col-pink text-xl m-5">Headline</h1>
+            <h1 class="text-col-dark text-lg m-5">Some fancy text goes here</h1>
+        </div>
+        <div class="carousel-cell rounded-xl flex flex-wrap flex-col w-1/3 mx-8 h-68 md:h-96 shadow-2xl bg-col-lite">
+            <img src="./img/pic.jpg" class="rounded-xl h-1/2">
+            <h1 class="font-bold text-col-pink text-xl m-5">Headline</h1>
+            <h1 class="text-col-dark text-lg m-5">Some fancy text goes here</h1>
+        </div>
+
+    </div>
+
+    <h1 class="text-3xl ml-5 md:ml-16 font-bold mt-16 text-col-pink" data-aos="fade-right">About Sasta Ashiana</h1>
+
+    <!-----------------Footer----------------->
+
+    <div class="flex flex-wrap flex-row bg-col-pink mt-24">
+        <div class="flex flex-wrap flex-col mx-auto w-auto">
+            <h1 class="font-bold text-col-lite text-xl my-5">About</h1>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">About Us</a>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Our Team</a>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Our Offices</a>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Latest News</a>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Careers</a>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Video Content</a>
+        </div>
+        <div class="flex flex-wrap flex-col mx-auto w-auto">
+            <h1 class="font-bold text-col-lite text-xl my-5">Sales</h1>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Book Valuation</a>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Buying with Sasta Ashiana</a>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Mortgage Calculator</a>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Property Search</a>
+        </div>
+        <div class="flex flex-wrap flex-col mx-auto w-auto">
+            <h1 class="font-bold text-col-lite text-xl my-5">Lettings</h1>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Book Valuation</a>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Renting with Sasta Ashiana?</a>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Tenants Calculator</a>
+            <a class="text-lg text-col-lite hover:text-col-last duration-300">Property Search</a>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
